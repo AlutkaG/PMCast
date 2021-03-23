@@ -1,0 +1,27 @@
+#welcome_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.welcome_section-left-side {
+  position: relative;
+}
+
+.welcome_section-content-div {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.welcome_section-title {
+  font-size: 4vw;
+  color: #01275c;
+}
+
+.welcome_section-subtitle {
+  font-size: 2vw;
+  color: #121631;
+}
+
+.welcome_section-img {
+  width: 35vw;
+}
