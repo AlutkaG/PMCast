@@ -1,5 +1,5 @@
 #about {
-  margin: 5vh 5vw 0 5vw;
+  margin: 15vh 5vw 0 5vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

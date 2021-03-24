@@ -1,6 +1,7 @@
 #welcome_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
 }
 
 .welcome_section-left-side {
