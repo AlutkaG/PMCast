@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap");
+
+#timeline {
+  margin-top: 400px;
+}
+
+.timeline-laptop {
+  transform: scale(80, 70);
+  fill: #1d3557;
+  z-index: -1;
+}
+
+.timeline-header {
+  font-size: 1.8vw;
+  margin-top: -200px;
+  font-family: var(--raleway);
+}
+
+.timeline-subheader {
+  font-size: 2.3vw;
+  font-weight: bold;
+  font-family: var(--raleway);
+  margin-top: 5px;
+}
+
+.timeline-separator {
+  background: #1d3557;
+  width: 5%;
+  height: 4px;
+  border-width: 0;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.timeline-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 60px;
+}
+
+.timeline-boxitem {
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.timeline-number {
+  color: white;
+  font-family: var(--raleway);
+  font-size: 3.5vw;
+}
+
+.timeline-info {
+  color: white;
+  font-family: var(--raleway);
+  font-size: 0.8vw;
+}

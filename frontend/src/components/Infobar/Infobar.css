@@ -33,11 +33,13 @@
   font-size: 1.8vw;
   font-weight: bold;
   color: white;
+  font-family: var(--raleway);
 }
 
 .infobar-info {
   font-size: 1.2vw;
   color: white;
+  font-family: var(--raleway);
 }
 
 .granat {

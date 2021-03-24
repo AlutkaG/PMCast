@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap");
+
 #about {
   margin: 15vh 10vw 0 10vw;
   display: grid;
@@ -10,6 +12,7 @@
   font-weight: bold;
   color: var(--font-color);
   text-align: left;
+  font-family: var(--raleway);
 }
 
 .about-content {
@@ -19,6 +22,7 @@
   margin-top: 2vw;
   letter-spacing: 1.08px;
   line-height: 1.5;
+  font-family: var(--raleway);
 }
 
 .about-left-side {
