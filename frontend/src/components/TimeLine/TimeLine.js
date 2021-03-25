@@ -14,13 +14,7 @@ const TimeLine = (props) => {
     return new Promise((resolve) => setTimeout(resolve, milliseconds));
   };
   useEffect(() => {
-    let year = 0,
-      month = 0,
-      day = 0,
-      h = 0,
-      m = 0,
-      s = 0,
-      dyear = 0,
+    let dyear = 0,
       dmonth = 0,
       dday = 0,
       dhour = 0,
