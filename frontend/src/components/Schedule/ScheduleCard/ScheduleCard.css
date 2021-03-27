@@ -1,0 +1,149 @@
+.schedule_card {
+  width: 50vw;
+  display: inline-block;
+  border-radius: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2f2f2f;
+  padding: 5vh 5vw 5vh 5vw;
+  margin-bottom: 5vh;
+}
+
+.schedule_card-inside {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+
+.schedule_card-photo {
+  width: 8vw;
+  border-radius: 10px;
+}
+
+.schedule_card-text {
+  font-family: var(--raleway);
+  text-align: left;
+  letter-spacing: 1.1px;
+}
+
+.date {
+  font-size: 0.9vw;
+}
+
+.header {
+  font-size: 1.8vw;
+  margin-top: 0.5vh;
+}
+
+.content {
+  font-size: 1vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+.schedule_card-display-inline {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.spacer {
+  margin-left: 2vw;
+}
+
+.name {
+  font-size: 1vw;
+}
+
+.status {
+  font-size: 1vw;
+  color: #e63946;
+}
+
+.schedule_card-btn {
+  max-width: 15vw;
+  margin-top: 3vh;
+  float: left;
+  border: 1px solid #707070;
+  background-color: #01275c;
+  color: white;
+  padding: 1.5vh 0vw 1.5vh 0vw;
+}
+
+@media (max-width: 1000px) and(min-width:801px) {
+  .schedule_card {
+    width: 70vw;
+  }
+
+  .schedule_card-btn {
+    max-width: 25vw;
+    font-size: 1.2vw;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+  .schedule_card {
+    width: 80vw;
+  }
+  .schedule_card-btn {
+    max-width: 30vw;
+    font-size: 1.2vw;
+  }
+  .date {
+    font-size: 1.2vw;
+  }
+
+  .header {
+    font-size: 3vw;
+    margin-top: 0.5vh;
+  }
+
+  .content {
+    font-size: 1.5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+  }
+
+  .name {
+    font-size: 1.5vw;
+  }
+
+  .status {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .schedule_card {
+    width: 80vw;
+  }
+  .schedule_card-btn {
+    max-width: 30vw;
+    font-size: 1.2vw;
+  }
+  .date {
+    font-size: 1.5vw;
+  }
+
+  .header {
+    font-size: 3.2vw;
+    margin-top: 0.5vh;
+  }
+
+  .content {
+    font-size: 1.8vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+  }
+
+  .name {
+    font-size: 1.8vw;
+  }
+
+  .status {
+    font-size: 1.8vw;
+  }
+  .schedule_card-photo {
+    width: 14vw;
+    border-radius: 10px;
+  }
+}

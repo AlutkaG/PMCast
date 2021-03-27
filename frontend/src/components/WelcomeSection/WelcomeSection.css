@@ -27,3 +27,32 @@
 .welcome_section-img {
   width: 35vw;
 }
+
+@media (max-width: 800px) {
+  #welcome_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome_section-content-div {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .welcome_section-title {
+    font-size: 8vw;
+  }
+
+  .welcome_section-subtitle {
+    font-size: 4vw;
+  }
+
+  .welcome_section-img {
+    width: 50vw;
+  }
+}
