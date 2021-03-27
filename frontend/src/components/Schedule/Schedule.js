@@ -1,7 +1,7 @@
 import ScheduleListManagement from "./ScheduleList/ScheduleListManagement";
 import ScheduleListSoftSkills from "./ScheduleList/ScheduleListSoftSkills";
 import ScheduleListInterpersonalCommunication from "./ScheduleList/ScheduleListInterpersonalCommunication";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link, Redirect } from "react-router-dom";
 import "./Schedule.css";
 import { useState } from "react";
 
@@ -55,6 +55,9 @@ const Schedule = () => {
           </div>
         </div>
         <Switch>
+          <Route exact path="/">
+            <Redirect to="management" />
+          </Route>
           <Route path="/management" component={ScheduleListManagement} />
           <Route path="/softSkills" component={ScheduleListSoftSkills} />
           <Route

@@ -12,15 +12,17 @@
 .welcome_section-content-div {
   position: absolute;
   top: 40%;
-  left: 20%;
+  left: 15%;
 }
 .welcome_section-title {
   font-size: 4vw;
+  letter-spacing: 3px;
   color: #01275c;
 }
 
 .welcome_section-subtitle {
   font-size: 2vw;
+  letter-spacing: 4px;
   color: #121631;
 }
 

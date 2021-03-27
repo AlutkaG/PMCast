@@ -8,7 +8,7 @@ const softSkillsList = [
     header: "Soft skills",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. tutaj będzie opisany webinar w sensie tematycznym",
-    name: "Magda Gessler",
+    name: "Tomasz Karolak",
     status: "LUDWIK BOSKI",
   },
   {
@@ -17,7 +17,7 @@ const softSkillsList = [
     header: "Soft skills",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. tutaj będzie opisany webinar w sensie tematycznym",
-    name: "Magda Gessler",
+    name: "Tomasz Karolak",
     status: "LUDWIK BOSKI",
   },
   {
@@ -26,7 +26,7 @@ const softSkillsList = [
     header: "Soft skills",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. tutaj będzie opisany webinar w sensie tematycznym",
-    name: "Magda Gessler",
+    name: "Tomasz Karolak",
     status: "LUDWIK BOSKI",
   },
 ];

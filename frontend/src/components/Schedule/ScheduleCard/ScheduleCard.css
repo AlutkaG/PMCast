@@ -67,6 +67,7 @@
   background-color: #01275c;
   color: white;
   padding: 1.5vh 0vw 1.5vh 0vw;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) and(min-width:801px) {
