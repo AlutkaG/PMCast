@@ -11,20 +11,14 @@ const About = () => {
         <div className="about-left-side">
           <div className="about-header">O PM Cast</div>
           <div className="about-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in trzeba będzie tęz powtórzyć inf o środzie bold
-            tutaj będzie opisany cel i sens tego wydarzenia. będzie się kończył
-            tym, że zdecydowaliśmy podzielić każdy cykl na 2 częściLorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            trzeba będzie tęz powtórzyć inf o środzie bold tutaj będzie opisany
-            cel i sens tego wydarzenia. będzie się kończył tym, że
-            zdecydowaliśmy podzielić każdy cykl na 2 części
+            Jeżeli dopiero zaczynasz swoją przygodę z Project Managementem i
+            jesteś ciekawy co, jak i dlaczego robią współcześni PM’owie, to już
+            teraz odpaliliśmy dla Was nowy cykl „PM Cast”, w którym dowiecie się
+            po kolei jak zrobić z igły widły. Dyskusje, Konkursy, Materiały
+            Szkoleniowe, Debaty i Gry oraz to co najważniejsze czyli
+            merytoryczny przekaz informacji oraz dobrych praktyk z obszaru PM.
+            <br />
+            <strong> W każdy wtorek o godzinie 19:00</strong>
           </div>
         </div>
         <div className="about-right-side">
@@ -40,25 +34,23 @@ const About = () => {
       />
       <div className="about-section second">
         <div>
-          <div className="about-subheader">WEBINAR</div>
+          <div className="about-subheader">WEBINARY</div>
           <img src={pict3} alt="" className="about-subimg" />
           <div className="about-subcontent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit
+            Martwisz się, że informacji i technik poznanych na Webinarach nie
+            będziesz mógł zapamiętać, albo zastosować w praktyce? Nie martw się.
+            Oprócz materiałów które Ci udostępnimy, raz w miesiącu organizujemy
+            review Webinarów -debatę pomiędzy praktykiem i teoretykiem.
           </div>
         </div>
         <div>
           <div className="about-subheader">DEBATA</div>
           <img src={pict4} alt="" className="about-subimg" />
           <div className="about-subcontent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit
+            Debaty to takie nasze sztuki walki. Rożne dyskusje zamknięte w
+            odgórnie przyjętych ramach robią nie tylko świetny trening dla
+            mózgu, lecz przedstawiają ten sam problem z wielu perspektyw. Oj
+            będzie się działo!
           </div>
         </div>
       </div>

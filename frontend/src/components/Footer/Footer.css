@@ -1,0 +1,12 @@
+.footer {
+  height: 200px;
+  position: relative;
+  justify-content: center;
+}
+
+.footer-content {
+  font-family: var(--raleway);
+  color: var(--font-color);
+  font-size: 1vw;
+  line-height: 200px;
+}
