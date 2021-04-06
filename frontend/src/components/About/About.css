@@ -20,7 +20,7 @@
   font-size: 2vw;
   color: #01275c;
   font-family: var(--raleway);
-  letter-spacing: 1.1px;
+  letter-spacing: 1.8px;
 }
 
 .about-content {
@@ -28,7 +28,7 @@
   color: var(--font-color);
   text-align: left;
   margin-top: 2vw;
-  letter-spacing: 1.08px;
+  letter-spacing: 1.8px;
   line-height: 1.5;
   font-family: var(--raleway);
 }
@@ -37,7 +37,7 @@
   font-size: 1vw;
   color: var(--font-color);
   text-align: center;
-  letter-spacing: 1.08px;
+  letter-spacing: 1.8px;
   line-height: 1.5;
   font-family: var(--raleway);
   width: 30vw;
@@ -118,6 +118,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     row-gap: 15vh;
+    margin-top: 50px;
   }
 
   .about-subheader {
@@ -131,8 +132,8 @@
 
   .about-subimg {
     width: 60vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .about-left-side {
@@ -148,11 +149,13 @@
   }
 
   .about-content {
-    font-size: 1.8vw;
+    font-size: 2vw;
+    letter-spacing: 1.2px;
   }
 
   .about-img {
     width: 50vw;
+    margin-top: -30px;
   }
 
   .second {

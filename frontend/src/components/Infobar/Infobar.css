@@ -64,7 +64,18 @@
 }
 
 @media (max-width: 400px) {
+  #infobar {
+    margin-top: 80px;
+  }
   .infobar-icon {
-    transform: scale(2);
+    transform: scale(1.5);
+  }
+
+  .infobar-info {
+    font-size: 1.5vw;
+  }
+
+  .infobar-item {
+    padding: 20px 0 20px 0;
   }
 }
